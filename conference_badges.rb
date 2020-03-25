@@ -1,4 +1,4 @@
-# Write your code here.
+require 'pry'# Write your code here.
 def badge_maker(array)
   badges = []
   array.each do |name|
