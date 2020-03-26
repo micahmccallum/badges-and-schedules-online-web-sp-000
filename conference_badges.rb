@@ -13,8 +13,8 @@ def assign_rooms(array)
   assignments = []
   array.each_with_index do |name, i|
     assignments.push("Hello, #{name}!, You'll be assigned to room #{i + 1}")
-
   end
+  assignments
 end
 
 def printer(array)
